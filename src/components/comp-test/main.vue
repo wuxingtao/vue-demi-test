@@ -10,7 +10,6 @@
 import { ref, isVue3 } from 'vue-demi'
 import { Cell, Popup } from 'vant'
 import { Cell as Cell_v2, Popup as Popup_v2 } from '../../../build/v2/node_modules/vant'
-
 export default {
   name: 'comp-test',
   components: {

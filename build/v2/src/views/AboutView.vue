@@ -5,8 +5,12 @@
   </div>
 </template>
 <script>
+import CompTest from '../components/comp-test'
 export default {
   name: 'page-about',
+  components: {
+    CompTest
+  },
   props: {}
 }
 </script>
